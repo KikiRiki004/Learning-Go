@@ -7,4 +7,7 @@ func main() {
 
 	var s []int = primes[1:4] // 1 low, 4 high; takes 1 through 3 elements
 	fmt.Println(s)
+
+	var k []int = primes[2:6] // 2 low, 6 high; takes 2 through 5 elements
+	fmt.Println(k)
 }
