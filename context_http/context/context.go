@@ -31,3 +31,11 @@ func main() {
 	http.HandleFunc("/hello", hello)
 	http.ListenAndServe(":8090", nil)
 }
+
+// $ go run context.go
+
+// $ curl localhost:8090/hello
+// server: hello handler started
+// ^C
+// server: context canceled
+// server: hello handler ended
